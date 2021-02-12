@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(179, 60, 248, 0.507);
+}
+
+.bg{
+    background-image: url(./bg.jpg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+}
+
+.header_info{
+    border-bottom: 2px solid white; 
+    width: 1000px;
+    color:rgb(177, 191, 255);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
